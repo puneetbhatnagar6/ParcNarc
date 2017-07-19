@@ -5,7 +5,7 @@ module NotificationsHelper
              username: "parkbot"
     end
 
-    notifier.ping "ParkNarc! Time to move your cars"
+    notifier.ping "ParkNarc :awesome: Time to move your cars"
     # => will message "Hello default"
     # => to the "#default" channel as 'notifier'
   end
